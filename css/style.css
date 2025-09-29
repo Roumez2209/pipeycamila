@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::selection {
   color: #fff;
-  background: #F14E95;
+  background: #F14E9;
 }
 
 .fh5co-nav {
@@ -843,7 +843,7 @@ form label {
 .Boda{
   margin: 0;
   padding: 0;
-  color: #e6dc98;
+  color: rgb(178, 173, 121);
 }
 #fh5co-header .display-tc h1,
 #fh5co-counter .display-tc h1,
@@ -886,9 +886,9 @@ form label {
 .fh5co-cover .display-tc .btn {
   padding: 15px 20px;
   background: #fff !important;
-  color: #F14E95;
+  color: rgb(178, 173, 121);
   border: none !important;
-  font-size: 14px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 #fh5co-header .display-tc .btn:hover,
@@ -949,7 +949,7 @@ form label {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: rgba(241, 78, 149, 0.8);
+  background: rgba(132, 127, 76, 0.8);
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1050,7 +1050,7 @@ form label {
   font-size: 20px;
   background: #fff;
   padding: 20px;
-  color: #F14E95;
+  color: rgb(178, 173, 121);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1073,7 +1073,7 @@ form label {
 }
 .couple-half h3 {
   font-family: "Sacramento", Arial, serif;
-  color: #F14E95;
+  color: rgb(178, 173, 121);
   font-size: 30px;
 }
 .couple-half .groom, .couple-half .bride {
@@ -1188,7 +1188,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
+  color: rgb(178, 173, 121);
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
