@@ -47,13 +47,13 @@ body {
 }
 
 a {
-  color: #F14E95;
+  color: rgb(93, 90, 64);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: #F14E95;
+  color: rgb(93, 90, 64);
   outline: none;
   text-decoration: none;
 }
@@ -283,9 +283,6 @@ h1, h2, h3, h4, h5, h6, figure {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
-.fh5co-video:hover .overlay {
-  background: rgba(0, 0, 0, 0.7);
-}
 .fh5co-video:hover a {
   position: relative;
   -webkit-transform: scale(1.2);
@@ -385,7 +382,7 @@ h1, h2, h3, h4, h5, h6, figure {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(0, 0, 0, 0.7);
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
@@ -1315,7 +1312,7 @@ form label {
   display: table-cell;
   vertical-align: middle;
   font-size: 30px;
-  color: #F14E95;
+  color: rgb(178, 173, 121);
 }
 .feature-left .feature-copy {
   float: left;
