@@ -117,7 +117,7 @@
                 year: 2026,
                 month: 7,
                 day: 11,
-                hours: 21,
+                hours: 11,
                 minutes: 0,
                 seconds: 0,
                 words: {
