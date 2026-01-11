@@ -1852,4 +1852,79 @@ form label {
   color: rgb(178, 173, 121);
   font-family: "Sacramento", Arial, serif;
 }
+
+/* CONTENEDOR GENERAL */
+.wishes-wrapper {
+  margin-top: 40px;
+}
+
+/* CUSDIS BASE */
+#cusdis_thread {
+  text-align: left;
+}
+
+/* ESPACIO ENTRE COMENTARIOS */
+#cusdis_thread .cusdis-comment {
+  margin-bottom: 30px;
+}
+
+/* SEPARADOR VISUAL ANTES DEL FORM */
+#cusdis_thread form {
+  margin-top: 60px;
+  padding-top: 40px;
+  border-top: 1px solid #eaeaea;
+}
+
+/* AJUSTE DE TIPOGRAFÍA */
+#cusdis_thread textarea,
+#cusdis_thread input {
+  font-family: inherit;
+}
+
+/* BOTÓN MÁS ELEGANTE */
+#cusdis_thread button {
+  background-color: #d4af37; /* dorado suave */
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 30px;
+}
+
+/* === CUSDIS GRANDE Y ELEGANTE === */
+#cusdis_thread {
+  max-width: 1000px;
+  margin: 60px auto 0 auto;
+  padding: 40px;
+  background: #fff;
+  border-radius: 12px;
+}
+
+/* textarea grande */
+#cusdis_thread textarea {
+  min-height: 180px;
+  font-size: 16px;
+}
+
+/* inputs más grandes */
+#cusdis_thread input {
+  height: 48px;
+  font-size: 15px;
+}
+
+/* botón principal */
+#cusdis_thread button {
+  background-color: rgb(178, 173, 121);
+  border-radius: 30px;
+  padding: 12px 30px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+/* comentarios más aireados */
+#cusdis_thread .cusdis-comment {
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+
 /*# sourceMappingURL=style.css.map */
