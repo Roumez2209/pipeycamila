@@ -413,6 +413,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event img {
   border: 2px solid rgba(255, 255, 255, 0.5);
   background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
   width: 100%;
   float: left;
   -webkit-border-radius: 4px;
@@ -1947,6 +1948,10 @@ form label {
     font-family: "Sacramento", Arial, serif;
 }
 
-
+#fh5co-services .col-md-6 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
 
 /*# sourceMappingURL=style.css.map */
