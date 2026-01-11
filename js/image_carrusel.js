@@ -20,24 +20,50 @@ document.querySelectorAll(".carousel").forEach(carousel => {
     img.src = images[index];
   };
 
+  // botones
   next.addEventListener("click", goNext);
   prev.addEventListener("click", goPrev);
 
-  // 👉 activar carrusel al hacer click o touch
+  // activar carrusel
   carousel.addEventListener("click", () => {
     activeCarousel = { goNext, goPrev };
   });
+
+  /* =====================
+     SWIPE (TOUCH)
+  ===================== */
+  let startX = 0;
+  let endX = 0;
+
+  carousel.addEventListener("touchstart", e => {
+    startX = e.touches[0].clientX;
+  }, { passive: true });
+
+  carousel.addEventListener("touchend", e => {
+    endX = e.changedTouches[0].clientX;
+    handleSwipe();
+  });
+
+  function handleSwipe() {
+    const diff = startX - endX;
+
+    // sensibilidad mínima
+    if (Math.abs(diff) < 50) return;
+
+    if (diff > 0) {
+      goNext();   // swipe izquierda
+    } else {
+      goPrev();   // swipe derecha
+    }
+  }
 });
 
-// 🎹 TECLADO
-document.addEventListener("keydown", (e) => {
+/* =====================
+   TECLADO
+===================== */
+document.addEventListener("keydown", e => {
   if (!activeCarousel) return;
 
-  if (e.key === "ArrowRight") {
-    activeCarousel.goNext();
-  }
-
-  if (e.key === "ArrowLeft") {
-    activeCarousel.goPrev();
-  }
+  if (e.key === "ArrowRight") activeCarousel.goNext();
+  if (e.key === "ArrowLeft") activeCarousel.goPrev();
 });
